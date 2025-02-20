@@ -6,7 +6,7 @@ import threading
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=['https://converter-green-xi.vercel.app'])
 
 UPLOAD_FOLDER = "uploads"
 OUTPUT_FOLDER = "output"
